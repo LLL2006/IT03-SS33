@@ -38,8 +38,5 @@ function searchWeather() {
             <p>Tốc độ gió: ${weather.windSpeed} km/h</p>
         `;
         weatherResult.classList.remove("error");
-    } else {
-        weatherResult.innerHTML = `<p class="error">Không tìm thấy thông tin thời tiết cho thành phố "${cityInput}".</p>`;
-        weatherResult.classList.add("error");
     }
 }
